@@ -1,0 +1,33 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  width: $full-width;
+  background-color: white;
+}
+
+.item {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 95px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.label {
+  color: $font-color;
+  width: 120px;
+  text-align: center;
+}
+
+.input {
+  color: $font-color;
+  border-width: 2px;
+  border-color: $base-color;
+  border-radius: 6px;
+  width: 250px;
+  height: 65px;
+  padding: 12px;
+}
+

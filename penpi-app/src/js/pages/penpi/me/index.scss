@@ -1,0 +1,152 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  width: $full-width;
+  background-color: white;
+}
+
+//蒙版
+.masking {
+  position: absolute;
+  top: 180px;
+  height: 280px;
+  width: $full-width;
+  background-color: white;
+  opacity: 0.25;
+}
+
+.header {
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 460px;
+  width: $full-width;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.header-warpper {
+  position: absolute;
+  top: 0;
+  height: 460px;
+  width: $full-width;
+}
+
+.header-backgroud-image {
+  height: 460px;
+  width: $full-width;
+}
+
+.header-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 120px;
+  border-width: 1px;
+  border-color: $base-gray;
+}
+
+.name {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sign {
+  margin-bottom: 20px;
+}
+
+.sign-text {
+  font-size: 26px;
+  color: white;
+}
+
+.text {
+  font-size: 30px;
+  color: #444444;
+}
+
+.split-line {
+  height: 20px;
+  width: $full-width;
+  background-color: $background-color;
+}
+
+//--------wrapper----------------
+
+.external-wrapper {
+  width: $full-width;
+  height: 260px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.internal-wrapper {
+  width: $full-width;
+  height: 100px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper {
+  width: 180px;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.wrapper-header {
+  color: $font-color;
+  font-size: 26px;
+}
+
+.wrapper-content {
+  color: black;
+  font-size: 36px;
+}
+
+//--------body----------------
+
+.content {
+
+}
+
+.icon {
+  font-size: 35px;
+  font-family: iconfont-penpi;
+}
+
+.icon-header {
+  padding-left: 20px;
+  color: $base-color;
+  font-size: 35px;
+  font-family: iconfont-penpi;
+}
+
+.item {
+  height: 110px;
+  width: $full-width;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.item-icon {
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.spilt {
+  border-bottom-width: 1px;
+  border-bottom-color: $base-gray;
+  width: $full-width;
+}
+

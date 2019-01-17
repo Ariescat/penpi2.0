@@ -1,0 +1,40 @@
+KPTP模式：
+K：keep，今天做了哪些工作；
+P：problem，遇到了哪些问题；
+T：try，计划尝试如何解决这些问题；
+P：plan，明天的计划是什么。
+
+2018-01-22
+	lqz: 
+		1. 更新2.0.0-beta.16,完成pack测试后上传svn (但晚上发现他今天发布了2.0.1版本...)
+		明天计划：继续看看redis和spring的接入，及性能情况。
+		
+2018-01-21
+	lqz: 
+		1. ehcache接入完成(在考虑要不要用redis替代)
+		2. jap,es,ehcache事务同步完成
+		明天计划：看看redis和spring的接入，及性能情况。
+		
+2018-01-20
+	lqz: 
+		1. 完成在项目启动时索引自动构建
+		2. Jprofiler测试
+		
+2018-01-19
+	lqz: 
+		1. 完成dbunit
+		2. 完成elasticsearch接入
+		明天计划：entity的索引构建；数据库、索引事务同步。
+		
+2018-01-18
+	lqz: 
+		1. 完成commons里一些base，helper，utils类的编写
+		2. appConfig.local.properties基本编写
+		3. elasticsearch测试
+		
+2018-01-17
+	lqz: 
+		1. 完成web项目的创建(gradle脚本)
+		2. SpringMVC+SpringDataJPA+Hibernate搭建完毕
+		3. commons-logging+log4j2日志系统搭建完毕
+		4. 在test包完成基础demo测试，org.penpi.demo.controller.DemoController

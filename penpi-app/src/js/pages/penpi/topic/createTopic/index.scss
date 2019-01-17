@@ -1,0 +1,72 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  width: $full-width;
+  background-color: white;
+  padding: 20px;
+}
+
+.header {
+  flex-direction: row;
+  align-items: center;
+}
+
+.topic-image {
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: $background-color;
+}
+
+.topic-image-icon {
+  color: $base-gray;
+  font-size: 55px;
+  font-family: iconfont-penpi;
+}
+
+.topic-name {
+  margin-left: 20px;
+}
+
+.label {
+  color: #333333;
+  font-size: $large-font;
+}
+
+.input {
+  width: 710px;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: $font-color;
+}
+
+.category-text {
+  font-size: $placeholder-size;
+  color: $placeholder-color;
+}
+
+.follower {
+  margin-top: 30px;
+}
+
+.btnStyle {
+  justify-content: center;
+  align-items: center;
+  width: 705px;
+  height: 85px;
+  border-radius: 8px;
+  background-color: $base-color
+}
+
+.btnStyle:active {
+  background-color: $export-blue;
+}
+
+.btnStyle-text {
+  color: white;
+  font-size: 34px;
+}

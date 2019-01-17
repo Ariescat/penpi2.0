@@ -1,0 +1,106 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  width: $full-width;
+  align-items: center;
+}
+
+.deliver-item {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: $deliver-width;
+
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: $base-border-radius;
+  border-width: 2px;
+  border-color: $base-color;
+}
+
+.head {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-body {
+  width: 560px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.label {
+  font-size: $large-font;
+  color: $font-color;
+  padding: 2px;
+}
+
+.sex {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px;
+}
+
+.icon-man {
+  color: $base-color;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: iconfont-penpi;
+}
+
+.icon-woman {
+  color: $b-red;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: iconfont-penpi;
+}
+
+.right-body {
+  width: 130px;
+  align-items: center;
+}
+
+.grab {
+  justify-content: center;
+  align-items: center;
+  background-color: $base-color;
+  width: 100px;
+  height: 100px;
+  border-width: $base-border-width;
+  border-radius: 100px;
+  border-color: $base-color;
+}
+
+.grab:active {
+  background-color: $export-blue;
+  border-color: $export-blue;
+}
+
+.grab-text {
+  font-size: 40px;
+  color: $base-white;
+}
+
+.bottom {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 665px;
+  margin-top: 18px;
+}
+
+.bottom-text {
+  font-size: $small-font;
+  color: $font-color;
+}
+
+.time-text {
+  width: 215px;
+  text-align: right;
+}

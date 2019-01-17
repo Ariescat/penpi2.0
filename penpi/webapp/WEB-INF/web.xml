@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+						http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+	<display-name>penpi-server</display-name>
+
+	<servlet>
+		<servlet-name>springmvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:spring/penpi.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+        <servlet-name>springmvc</servlet-name>
+        <url-pattern>*.json</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>springmvc</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+    
+	<!-- CharacterEncodingFilter进行编码过滤 -->
+	<!-- 只能解决post的中文乱码。 对于get（含浏览器地址栏直接提交方式），我们需要修改tomcat配置，在conf目录下的server.xml中找到并如下修改： --> 
+	<!-- <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8"/> -->
+	<filter>
+		<filter-name>characterEncodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>characterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<filter>
+        <filter-name>WebContextFilter</filter-name>
+        <filter-class>org.penpi.core.commons.filter.WebContextFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>WebContextFilter</filter-name>
+        <url-pattern>*.do</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>WebContextFilter</filter-name>
+        <url-pattern>*.json</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>WebContextFilter</filter-name>
+        <url-pattern>*.bin</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>WebContextFilter</filter-name>
+        <url-pattern>*.jsp</url-pattern>
+    </filter-mapping>
+
+	<!-- 检测用户是否过期需要重登录 -->
+	<filter>
+		<filter-name>MemberReLoginFilter</filter-name>
+		<filter-class>org.penpi.core.commons.filter.MemberReLoginFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>MemberReLoginFilter</filter-name>
+		<url-pattern>/app/*</url-pattern>
+	</filter-mapping> 
+    
+	<!-- 默认首页定义 -->
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

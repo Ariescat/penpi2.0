@@ -1,0 +1,20 @@
+@import 'src/js/css/penpi-base';
+
+.status-bar {
+  width: $full-width;
+  height: 40px;
+  background-color: $base-color;
+}
+
+.container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-container {
+  justify-content: center;
+  align-items: center;
+  width: $full-width;
+  background-color: $line-gray;
+}

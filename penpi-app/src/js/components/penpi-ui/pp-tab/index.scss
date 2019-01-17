@@ -1,0 +1,35 @@
+@import 'src/js/css/penpi-base';
+
+.scroller {
+  flex-direction: row;
+  width: 750px;
+  height: 80px;
+  background-color: white;
+}
+
+.warpper {
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  font-size: $large-font;
+  color: $font-color;
+}
+
+.line {
+  border-width: 3px;
+  border-color: white;
+  border-radius: 6px;
+  margin-top: 5px;
+  width: 20px;
+}
+
+.active {
+  color: $base-color;
+  border-color: $base-color;
+}
+
+.centre {
+  justify-content: center;
+}

@@ -1,0 +1,46 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  width: $full-width;
+  background-color: white;
+}
+
+.search {
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  /*background-color: $base-color;*/
+}
+
+.add {
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: 55px;
+  border-radius: 55px;
+  margin-right: 10px;
+  background-color: $background-color;
+}
+
+.ensure {
+  justify-content: center;
+  align-items: center;
+  background-color: $base-color;
+  border-radius: 6px;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+}
+
+.ensure:active {
+  background-color: $export-blue;
+}
+
+.ensure-text {
+  color: #fff;
+  font-family: iconfont-penpi;
+  font-size: 40px;
+}

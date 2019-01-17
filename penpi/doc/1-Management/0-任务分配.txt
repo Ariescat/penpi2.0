@@ -1,0 +1,24 @@
+﻿lqz:
+	1. 完善团队管理工具，如backlog、dailylog(项目进度可跟踪化)等
+	2. 搭建环境(eclipse)
+		2.1. gradle环境 (gradle-3.5.1)
+		2.2. svn环境 (/usr/bin/svnserve -d -r /var/svn/svnrepos)
+		2.3. spring环境 (SpringMVC+SpringDataJPA+Hibernate, 日志用commons-logging+log4j2)
+		2.4. 完成公共Utils,BaseDao等，appConfig.local.properties编写
+		2.5. elasticsearch
+		2.6. cache
+		2.7. dbUnit
+		2.8. jpa,es,cache的aop,transaction关联
+		2.9. 消息队列
+		2.10.websocket
+		2.11.图片系统（重点）		
+		2.12.Jprofiler的研究
+	3. 工作手册
+		3.1. eclipse工程导入步骤
+		3.2. Android Stdio工程导入步骤
+	4. 讨论项目需要
+		4.1. 需求文档
+		4.2. 原型图设计
+		4.3. 数据模型设计
+	5. 项目架构
+		5.1. 模块规划(如Controller划分，持久层实现等)

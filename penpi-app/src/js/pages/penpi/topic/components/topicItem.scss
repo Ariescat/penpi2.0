@@ -1,0 +1,53 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  align-items: center;
+  width: $full-width;
+  padding: 10px;
+}
+
+.topic-item {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.topic-item-head {
+  width: 100px;
+  height: 100px;
+  border-width: 1px;
+  border-color: $background-color;
+  border-radius: 6px;
+}
+
+.topic-item-content {
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 500px;
+}
+
+.topic-item-num {
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: $base-color;
+}
+
+.content-text {
+  color: $font-color;
+}
+
+.num-text {
+  color: $background-color;
+  font-size: 24px;
+}
+
+.bottom-line {
+  margin-top: 15px;
+  width: 705px;
+  opacity: 0.3;
+  border-width: 1px;
+  border-color: $font-color;
+}

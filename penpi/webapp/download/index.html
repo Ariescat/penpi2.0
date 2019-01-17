@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Penpi校园社区</title>
+	<!--meta_tags-->	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+	<!--//meta_tag_keywords-->
+	<!-- Custom-Style-Sheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/><!--style_sheet-->
+	<link rel="stylesheet" href="css/font-awesome.css"> <!-- Font-Awesome_Icons-CSS -->
+	<link href="http://fonts.googleapis.com/css?family=Questrial" rel="stylesheet"><!--online_fonts-->
+	<link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<!--//Custom-Style-Sheet -->
+	<style type="text/css">
+		html {
+			height: 100%;
+		}
+		body {
+			height: 100%;
+		}
+		.position {
+			position: absolute;
+			bottom: 0px;
+			left: 9.5%;
+		}
+	</style>
+</head>
+<body>
+	<div style="height: 50px"></div>
+	<div class="w3ls-agile-profile">
+		<div class="container">
+			<h3 class="w3ls-text">Penpi <span class="w3l-try1">校园</span> 社区</h3>
+			<div style="height: 20px"></div>
+			<div id="typed-strings" class="agileits_w3layouts_strings">
+				<p>不 <i>太正经的 <span class="w3l-try">校园</span>社区</i></p>
+			</div>
+			<span id="typed" style="white-space:pre;"></span>
+			<p class="w3ls-p">方便了解一下？</p>
+			<a href="apk/penpi.apk" class="buy btn-wayra w3_play_icon1">下载</a>
+			<a href="../login.jsp" class="buy btn-wayra w3_play_icon1">后台管理</a>
+		</div>
+	</div>
+
+	<footer class="position">
+		Copyright &copy; 2018.Penpi All rights reserved.</a>
+	</footer>
+	
+	<!-- //banner-type-text -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/typed.js" type="text/javascript"></script>
+	<script>
+		$(function() {
+
+			$("#typed").typed({
+				// strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+				stringsElement : $('#typed-strings'),
+				typeSpeed : 30,
+				backDelay : 500,
+				loop : false,
+				contentType : 'html', // or text
+				// defaults to false for infinite loop
+				loopCount : false,
+				callback : function() {
+					foo();
+				},
+				resetCallback : function() {
+					newTyped();
+				}
+			});
+
+			$(".reset").click(function() {
+				$("#typed").typed('reset');
+			});
+
+		});
+
+		function newTyped() { /* A new typed object */
+		}
+
+		function foo() {
+			console.log("Callback");
+		}
+	</script>
+	<!-- //banner-type-text -->
+
+</body>
+</html>

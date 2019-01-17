@@ -1,0 +1,84 @@
+@import 'src/js/css/penpi-base';
+
+.image {
+  width: $full-width;
+  height: 300px;
+}
+
+.icon {
+  color: $base-color;
+  font-size: 45px;
+  font-family: iconfont-penpi;
+}
+
+.login {
+  justify-content: center;
+  align-items: center;
+  width: $full-width;
+}
+
+.label {
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+  padding-bottom: 10px;
+  border-bottom-width: 1px;
+  border-bottom-color: $base-gray;
+}
+
+.input {
+  color: $font-color;
+  padding: 15px;
+  height: 70px;
+  width: 340px;
+}
+
+.identifying-code {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 210px;
+  border-width: 1px;
+  border-radius: 35px;
+  border-color: $base-color;
+}
+
+.identifying-code:active {
+  background-color: $background-color;
+}
+
+.identifying-code-text {
+  font-size: 30px;
+  font-weight: bold;
+  color: $base-color;
+}
+
+.identifying-code-icon {
+  font-family: iconfont-penpi;
+  color: $base-color;
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 80px;
+  margin-top: 80px;
+  border-radius: 8px;
+  background-color: $base-color;
+}
+
+.button:active {
+  background-color: $base-blue;
+}
+
+.button-text {
+  color: white;
+  font-weight: bold;
+}

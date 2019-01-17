@@ -1,0 +1,38 @@
+@import 'src/js/css/penpi-base';
+
+.content {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: $full-width;
+  background-color: #F8F8F8;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  font-size: 60px;
+  font-family: iconfont-penpi;
+  color: $base-color;
+  margin: 7px;
+}
+
+.input {
+  color: $font-color;
+  width: 500px;
+  padding: 13px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: $base-color;
+}
+
+.reply {
+  background-color: $base-color;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+.reply-text {
+  padding: 14px;
+  color: white;
+}

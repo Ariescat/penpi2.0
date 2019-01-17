@@ -1,0 +1,42 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  width: $full-width;
+  background-color: white;
+  //background-image: linear-gradient(to bottom, #1da1f2, white);
+}
+
+.home {
+  align-items: center;
+}
+
+.function {
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+  background-color: $base-color;
+  //background-image: linear-gradient(to bottom, #1da1f2, white);
+}
+
+.spilt {
+  border-width: 1px;
+  border-color: white;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.text {
+  color: white;
+}
+
+.icon {
+  color: white;
+  font-size: 25px;
+  font-family: iconfont-penpi;
+  padding: 8px;
+}
+
+.weight-bold {
+  font-weight: bold;
+}

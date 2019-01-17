@@ -1,0 +1,116 @@
+// Penpi 常用样式
+
+$full-width:      750;
+$deliver-width:   700;
+$topic-width:     500;
+
+$base-border-radius:  10;
+$base-border-width:   1;
+
+$small-font:      28;
+$base-font:       30;
+$large-font:      32;
+
+$font-color:                        #666666;
+
+$placeholder-color:                 rgb(145,145,145);
+$placeholder-size:                  32;
+
+$base-color:                        #1da1f2;
+$background-color:                  #eff3f4;
+$b-red:                             rgb(251,115,154);
+$history-color:                     #f6f6f6;
+
+$base-gray:                         #a6a6a6;
+$base-white:                        #fff;
+$base-red:                          #e15959;
+$base-blue:                         #00b4cb;
+$base-green:                        #07ae9c;
+$base-orange:                       #f5a66a;
+$base-chanel:                       #acacbf;
+$base-disabled:                     #ceced9;
+$export-blue:                       #04b0ed;
+$export-orange:                     #ef735a;
+$export-red:                        #fca353;
+$line-gray:                         #f2f3f4;
+$line-blue:                         #00b4cb;
+$line-green:                        #95ca78;
+$line-orange:                       #f7a65c;
+
+.split {
+  height: 20px;
+  width: $full-width;
+  background-color: $background-color;
+}
+
+.base-color {
+  color: $base-color;
+}
+
+.base-gray {
+  color: $base-gray;
+}
+
+.font-size28 {
+  font-size: 28px;
+}
+
+.mt5 {
+  margin-top: 5px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.mt20{
+  margin-top: 20px;
+}
+.mt40 {
+  margin-top :40px;
+}
+
+.ml2 {
+  margin-left: 2px;
+}
+.ml25 {
+  margin-left: 25px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mb5 {
+  margin-bottom: 5px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.width70 {
+  width: 70px;
+}
+
+.width100 {
+  width: 100px;
+}
+
+.width220 {
+  width: 220px;
+}
+
+.width350 {
+  width: 350px;
+}
+
+.width450 {
+  width: 450px;
+}
+
+.width550 {
+  width: 550px;
+}
+
+

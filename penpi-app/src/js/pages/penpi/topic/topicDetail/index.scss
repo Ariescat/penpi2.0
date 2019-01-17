@@ -1,0 +1,128 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  width: $full-width;
+}
+
+.nav {
+  flex-direction: row;
+  align-items: center;
+  height: 92px;
+  width: $full-width;
+  background-color: $base-color;
+}
+
+.nav-icon {
+  color: white;
+  font-size: 45px;
+  font-family: iconfont-penpi;
+}
+
+.return-icon {
+  font-size: 38px;
+  font-weight: 100;
+}
+
+.head {
+  flex-direction: row;
+  padding: 10px;
+}
+
+.head-left {
+  width: 520px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.head-right {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #BBBBBB;
+}
+
+.head-left-text1 {
+  color: $font-color;
+  font-size: 40px;
+}
+
+.head-left-text2 {
+  color: $base-gray;
+  font-size: 26px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.head-left-text3 {
+  color: $font-color;
+}
+
+.follow {
+  justify-content: center;
+  align-items: center;
+  background-color: $base-color;
+  border-radius: 30px;
+  padding: 15px;
+  width: 200px;
+}
+
+.hasfollow {
+  background-color: $base-gray;
+}
+
+.follow-text {
+  color: white;
+  font-size: $base-font;
+  font-family: iconfont-penpi;
+}
+
+.follow-person-warpper {
+  flex-direction: row;
+}
+
+.follow-person {
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border-radius: 60px;
+  border-width: 1px;
+  border-color: #BBBBBB;
+}
+
+.tip-warpper {
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: $full-width;
+}
+
+.tip {
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  width: 710px;
+  border-radius: 10px;
+  background-color: $background-color;
+}
+
+.tip-image {
+  height: 160px;
+  width: 710px;
+  border-radius: 10px;
+}
+
+.tip-text-warpper {
+  position: absolute;
+  top: 68px;
+  width: 750px;
+  justify-content: center;
+  align-items: center;
+}
+
+.note-body {
+  align-items: center;
+}

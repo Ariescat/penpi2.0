@@ -1,0 +1,4 @@
+
+1. BaseRepository JpaSpecificationExecutor
+
+2. BaseService @PersistenceContext @Qualifier

@@ -1,0 +1,62 @@
+@import 'src/js/css/penpi-base';
+
+.note-cont {
+  padding: 30px;
+}
+
+.input {
+  color: $font-color;
+}
+
+.note-label {
+  align-self: flex-start;
+  background-color: $base-color;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+.note-label-text {
+  color: white;
+  font-size: 24px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.note-file {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 33px;
+}
+
+.note-image {
+  width: 220px;
+  height: 220px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border-color: $background-color;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+// 附件
+.attachment {
+  position: absolute;
+  bottom: 50px;
+  left: 310px;
+  justify-content: center;
+  align-items: center;
+}
+
+.attachment-icon {
+  color: $base-color;
+  font-size: 80px;
+  font-family: iconfont-penpi;
+}
+
+.attachment-text {
+  color: $base-color;
+  font-size: $small-font;
+  margin-top: 20px;
+}

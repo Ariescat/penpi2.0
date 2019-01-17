@@ -1,0 +1,64 @@
+@import 'src/js/css/penpi-base';
+
+.container {
+  flex-direction: column;
+  width: $full-width;
+  align-items: center;
+}
+
+.deliver-item {
+  flex-direction: row;
+  align-items: center;
+  width: $full-width;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.left-body {
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.order-text {
+  font-size: $large-font;
+  color: $font-color;
+  padding: 6px;
+}
+
+.message {
+  height: 90px;
+  width: $full-width;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.message-text {
+  font-size: 32px;
+  color: black;
+}
+
+.bottom {
+  height: 80px;
+  width: $full-width;
+  background-color: #f9f9f9;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+
+.bottom-text {
+  font-size: 28px;
+  color: $base-color;
+}
+
+.split-line {
+  height: 20px;
+  width: $full-width;
+  background-color: $background-color;
+}
+
+
+
