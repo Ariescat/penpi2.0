@@ -63,3 +63,11 @@
 ![幻灯片25](./doc/幻灯片25.jpg)
 
 ![幻灯片26](./doc/幻灯片26.jpg)
+
+
+### 参考链接
+
+- [阿里研究院：2016 年校园快递行业发展报告 ](http://www.199it.com/archives/530127.html)
+- [即时配送的订单分配策略：从建模和优化](http://www.woshipm.com/pd/829557.html)
+- [高并发抢单解决方案2017_ycy白米饭的博客-CSDN博客](https://blog.csdn.net/qq812858143/article/details/72679823?locationNum=2&fps=1)
+- [Java Web高并发抢单如何实现？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/39682803)
